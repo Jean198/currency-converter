@@ -1,0 +1,145 @@
+body{
+    background-color: #1F2937;
+}
+
+#container{
+    
+    max-width:50%;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 50vh;
+    text-align: center;
+    background-color: #1F2937;
+    font-family: 'Inter', sans-serif;
+    border-radius: 5px;
+    border: solid 1px white;
+    margin-top: 10vh;
+    color: white;
+    
+    
+}
+
+#container h3{
+    color: #F6B720;
+}
+
+.big-box{
+    
+    width: 20%;
+    display: inline-block;
+    padding: 5px;
+    text-align: left;
+    
+    margin-left: 15px;
+    
+
+}
+
+.small-box{
+    display: block;
+    padding:10px;
+    width: 85%;
+    border: solid 3px white;
+    border-radius: 5px;
+    margin-right:10px;
+    
+    
+}
+
+#output{
+
+    
+    width: 40%;
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    font-size: 35px;
+
+}
+
+
+#button{
+    display: inline-block;
+    
+    
+    cursor: pointer;
+    margin: 0 auto;
+    outline-offset: 4px;
+    font-weight: 600;
+    border: 1px solid white;
+    background-color: #9ACD32;
+    transition-property: background-color, border-color;
+    color: white;
+    width: 100px;
+    padding: 15px 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+    
+
+}
+#button:hover{
+    background-color: black;
+    box-shadow: 1px 1px white;
+    color: white;
+}
+#button:active{
+    width:97px;
+}
+
+#currencyNameDisplay{
+    color:yellow;
+    font-size: 30px;
+}
+
+#currencyDisplay{
+    transition: 2.5s;
+}
+
+.changesize{
+    color:#F6B01B;
+    
+
+    
+}
+
+.form{
+    border: lightgray solid 0.5em;
+    border-radius: 5px;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .form{
+        display: flex;
+        flex-direction: column;
+        border: lightgray solid 0.5em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .big-box{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .small-box{
+        display: block;
+        
+        width: 85%;
+        border: solid 3px white;
+        border-radius: 5px;
+        margin: 0 auto
+        
+        
+    }
+
+    .first-big-box{
+        width: 94%;
+    }
+
+    #button{
+        width: 86%;
+        
+    }
+}
