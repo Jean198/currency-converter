@@ -109,6 +109,9 @@ body{
 }
 
 @media screen and (max-width: 1200px) {
+    #container{
+        min-width:90%;
+    }
     .form{
         display: flex;
         flex-direction: column;
